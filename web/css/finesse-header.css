@@ -1,0 +1,110 @@
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #00ADEF;
+  white-space: nowrap;
+  z-index: 999;
+}
+
+.dropdown li {
+  padding: 1px 8px 0px 0px;
+}
+
+.dropdown a {
+  color: #000000;
+}
+
+.dropdown li:focus, .dropdown li:hover {
+  background-color: #B7F3FD;
+}
+
+.dropdown-arrow {
+  background: transparent url("../../images/white_arrow.png") no-repeat center;
+  padding: 0px 10px;
+}
+
+.dropdown-indicator {
+  background: transparent url("../../images/indicator_bluebg.gif") no-repeat right;
+  padding: 0px 10px;
+}
+
+.state-icon {
+  background-image: url("../../images/sprite_presence.png");
+  background-repeat: no-repeat;
+}
+
+.state-icon-green {
+  background-position: 4px 2px;
+}
+
+.state-icon-yellow {
+  background-position: 4px -18px;
+}
+
+.state-icon-red {
+  background-position: 4px -38px;
+}
+
+.state-icon-white {
+  background-position: 4px -58px;
+}
+
+.disabled-signout {
+  cursor: auto;
+  background: url("../../images/stop.png") no-repeat 2px;
+}
+
+a.state-icon, a.disabled-signout {
+  line-height: 20px;
+  padding: 0 0 0 20px;
+}
+
+#logo-img {
+  margin: 0 12px 0 0;
+}
+
+#user-info-text {
+  padding: 0 0 2px 0;
+}
+
+#state-text {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#state-area {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+
+#state-menu {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  max-height: 15em;
+  overflow: auto;
+}
+
+#signout-area {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+
+#signout-text {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#signout-menu {
+  position: absolute;
+  text-align: left;
+  top: 18 px;
+  right: 0px;
+  max-width: 200 px;
+  max-height: 15em;
+  overflow: auto;
+}

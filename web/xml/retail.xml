@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<verti>
+	<wrapups>
+		<code>Refi</code>
+		<display>Refinance Query</display>
+		<finer>
+			<option></option>
+			<option></option>
+		</finer>
+	</wrapups>
+	<wrapups>
+		<code>2012</code>
+		<display>SecondMort</display>
+	</wrapups>
+	<wrapups>
+		<code>2141</code>
+		<display>ShortSale</display>
+	</wrapups>
+	<wrapups>
+		<code>2152</code>
+		<display>LegalEviction</display>
+	</wrapups>	
+	<wrapups>
+		<code>2352</code>
+		<display>PropDamage</display>
+	</wrapups>	
+	<wrapbundle>
+		<item>
+			<varn>reason</varn>
+			<desc>Reason for call</desc>
+			<type>sl</type>
+			<options>
+				<opt>
+				<vald>0201</vald>
+				<fill>Issue with Product</fill>
+				</opt>				
+				<opt>
+				<vald>0202</vald>
+				<fill>Return Exchange</fill>
+				</opt>
+				<opt>
+				<vald>0201</vald>
+				<fill>Product Registration</fill>
+				</opt>				
+			</options>
+		</item>
+		<item>
+			<varn>wrapup</varn>
+			<desc>Wrapup Status</desc>
+			<type>sl</type>
+			<options>
+				<opt>
+				<vald>w393</vald>
+				<fill>Question Answered</fill>
+				</opt>
+				<opt>
+				<vald>w000</vald>
+				<fill>Issue for Manufacturer</fill>
+				</opt>
+				<opt>
+				<vald>e544</vald>
+				<fill>Not Eligible for Return</fill>
+				</opt>	
+				<opt>
+				<vald>f544</vald>
+				<fill>Refund</fill>
+				</opt>					
+				<opt>
+				<vald>c544</vald>
+				<fill>Credit</fill>
+				</opt>								
+			</options>
+		</item>
+		<item>
+			<varn>prop</varn>
+			<desc>Property</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>b001</vald>
+				<fill>Business</fill>
+				</opt>	
+				<opt>
+				<vald>b002</vald>
+				<fill>Corporate</fill>
+				</opt>	
+				<opt>
+				<vald>p300</vald>
+				<fill>Personal Home</fill>
+				</opt>	
+				<opt>
+				<vald>p200</vald>
+				<fill>Public</fill>
+				</opt>					
+			</options>
+		</item>
+		<item>
+			<varn>inc</varn>
+			<desc>Verified Income</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>50</vald>
+				<fill>Under $50k</fill>
+				</opt>	
+				<opt>
+				<vald>100</vald>
+				<fill>Under $100k</fill>
+				</opt>	
+				<opt>
+				<vald>200</vald>
+				<fill>Under 250k</fill>
+				</opt>	
+				<opt>
+				<vald>9000</vald>
+				<fill>Over 250k</fill>
+				</opt>					
+			</options>
+		</item>		
+		<item>
+			<varn>preapp</varn>
+			<desc>Pre-Approval</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>none</vald>
+				<fill>Not Submitted</fill>
+				</opt>
+				<opt>
+				<vald>guarenteed</vald>
+				<fill>Guarenteed/Backed</fill>
+				</opt>					
+				<opt>
+				<vald>lrisk</vald>
+				<fill>Low Risk</fill>
+				</opt>	
+				<opt>
+				<vald>hrisk</vald>
+				<fill>High Risk</fill>
+				</opt>	
+				<opt>
+				<vald>authorized</vald>
+				<fill>Completed Report Authorization</fill>
+				</opt>					
+			</options>
+		</item>		
+	</wrapbundle>
+	<detbundle>
+		<item>
+			<varn>addy</varn>
+			<desc>Address</desc>
+			<type>tl</type>
+		</item>	
+		<item>
+			<varn>paddy</varn>
+			<desc>Prev. Address</desc>
+			<type>tl</type>
+		</item>	
+		<item>
+			<varn>name</varn>
+			<desc>Legal Name</desc>
+			<type>te</type>
+		</item>			
+		<item>
+			<varn>employer</varn>
+			<desc>Employer</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>filings</varn>
+			<desc>Filing status</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>area</varn>
+			<desc>Division</desc>
+			<type>te</type>
+		</item>		
+		<item>
+			<varn>sqft</varn>
+			<desc>Sq Footage</desc>
+			<type>te</type>
+		</item>			
+		<item>
+			<varn>markv</varn>
+			<desc>Mkt Value</desc>
+			<type>te</type>
+		</item>			
+		<item>
+			<varn>equity</varn>
+			<desc>Home Equity</desc>
+			<type>te</type>
+		</item>
+		<item>
+			<varn>indebt</varn>
+			<desc>Indebtedness</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>ltype</varn>
+			<desc>Loan Type</desc>
+			<type>te</type>
+		</item>			
+	</detbundle>	
+</verti>

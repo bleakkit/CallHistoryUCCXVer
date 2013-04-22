@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SpinSci Technologies Expanded Desktop</title>
+	<!-- Resources -->
+	<link rel="stylesheet" type="text/css" href="css/finesse-base.css" />
+	<link rel="stylesheet" type="text/css" href="css/finesse-body.css" />
+	<link rel="stylesheet" type="text/css" href="css/finesse-header.css" />	
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.10.0.custom/jquery-ui-1.10.0.custom/css/smoothness/jquery-ui-1.10.0.custom.css" />
+	<link rel="stylesheet" type="text/css" href="js/colorbox-master/example4/colorbox.css" />	
+	<link rel="stylesheet" href="css/jquery.minitwitter.css"/>
+	<link rel="stylesheet" type="text/css" href="css/lilwheezie.css" />		
+	<link rel="stylesheet" type="text/css" href="css/corporcorpus.css" />	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexcroll.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js" ></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.min.js" ></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/gmap3.min.js"></script>		
+	<script type="text/javascript" src="js/allthelittlefunctions.js"></script>	
+	<script type="text/javascript" src="js/colorbox-master/jquery.colorbox-min.js"></script>	
+	<script type="text/javascript" src="js/jquery.minitwitter.js" charset="utf-8"></script>	
+	<script type="text/javascript" src="js/jstree-v.pre1.0/jstree-v.pre1.0/jquery.jstree.js"></script>	
+	<script type="text/javascript" src="js/date.format.js"></script>		
+	<script type="text/javascript" src="js/flexcroll.js"> </script>
+        <script type="text/javascript" src="js/bindWithDelay.js"> </script>        
+	
+	<!-- Finesse Library 
+	<script type="text/javascript" src="js/finesse.js" ></script>
+	<!-- Gadget Call Handler Logic
+    <script type="text/javascript" src="js/call-logic.js"></script>
+	-->
+
+</head>
+
+<body>
+<div id="callcenter" style="background-color: #FF8484;">
+	<select id="caller">
+		<option value="2143435633">2143435633 - Mortgage</option>
+		<option value="8172787306">8172787306 - Medical</option>
+		<option value="4109876634">4109876634 - Retail</option>		
+	</select>
+	<button id="placeancall">Place an call</button>
+	<a id="callFinisher" href="#inline_content" class="inline cboxElement">Finish Call</a>
+	<a href="charting/analytics.html" class="callline cboxElement">Check Call Volume</a>
+</div>
+
+<div class="header"> 
+	<div style="margin:0px auto; width:990px">
+		<!--<img src="images/logo.png" />-->
+		<p><a class="callline" href="charting/analytics.html">Check Call Queue Times<img src="images/Charter.png" style="align:right;vertical-align:bottom;" height="48" width="48"/></a></p>		
+	</div>
+</div>
+
+<!-- line 1 Contact Details, Call History -->
+<div class="mega">
+	<div class="mina">
+		<div class="reallymina"><span>Contact Information</span></div>
+	</div>
+	<ul class="contentInject cntcform">
+		<form id="detailed">
+		</form>
+    </ul>
+	<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>
+
+<div class="mega">
+	<div class="mina"><div class="reallymina"><span>Contact History</span></div></div>
+	<div class="contentInject" id="historyofthemoon">
+	
+	
+	</div>
+	<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>
+
+<!-- line 2 Wrapup, Notes -->
+
+<div class="mega">
+<div class="mina"><div class="reallymina"><span>Wrapup</span></div></div>
+<ul class="contentInject wrapuplist">
+	<form id="wrapped">
+	</form> 	
+</ul>           
+<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>
+            
+            
+<div class="mega">
+	<div class="mina"><div class="reallymina"><span>Notes</span></div></div>
+	<div class="contentInject">
+		<div id="notestainer">
+			<textarea id="workingNotes" name="notes"></textarea>
+		</div>
+		<!--
+		<div id='mycustomscroll' class='flexscrolled'>
+		<div class="btm_left">
+				<div id="notestainer">
+					<textarea id="workingNotes"></textarea>
+				</div>
+		</div>
+		<p>Bottom</p>		
+		</div>
+		-->
+	</div>
+	<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>
+           
+<!-- line 3 KB, Social -->
+<div class="mega">
+	<div class="mina"><div class="reallymina"><span>Knowledge Base</span></div></div>
+	<div class="contentInject">
+		<div class="tabs">
+			<div id="tabs">
+			  <ul id="tabheaders" class="tab">
+				<li><a href="#tabs-1">Local KB</a></li>
+				<li><a href="#tabs-2">Google</a></li>					
+			  </ul>
+			  <div id="tabs-1">
+				<div id="kblistarea"></div>
+				<div id="kbcontentarea"></div>
+			  </div>
+			  <div id="tabs-2">	
+				<iframe src="http://www.google.com/custom" ></iframe>
+			  </div>
+			</div>	
+		</div>
+	</div>
+	<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>           
+
+<!-- Twitter portion
+<div class="mega">
+<div class="mina"><div class="reallymina"><span>Social Connect</span></div></div>
+	<div class="ctitle"> <p class="heading"><img src="images/twitterfeed.png" /></p></div>
+	<div id='fromtwo'></div>
+	<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>  
+-->
+
+<div class="mega">
+<div class="mina"><div class="reallymina"><span>Location</span></div></div>
+<div align="center" style="color: #454545!important;" id="scriptWh">
+
+</div>
+
+<div id="mapcanvas"></div>
+
+<div class="branding"><span><sup>&#169;</sup>&nbsp;2013 SpinSci Technologies, LLC</span></div>
+</div>
+
+<div style="clear:both;"></div>
+
+
+
+<div style="overflow-x: hidden; overflow-y: auto; max-height: 300px; width:100%; margin-top: 25px; text-align:center;">
+<a class="callline cboxElement calltimer" href="http://173.37.192.61:8081/cuic/permalink/PermalinkViewer.htmx?viewId=2593D7FC1000013920F37E740A0101C7&linkType=htmlType&viewType=Grid" >Check Call Times</a>
+</div>
+	<!-- This contains the hidden content for inline calls -->
+	<div style='display:none'>
+		<div id='inline_content' style='padding:10px; background:#454545;'>
+                    <form id="tiroFinale">
+	
+                    <div style="max-height: 475px; overflow-y: scroll; overflow-x:hidden;">
+                        <p><strong>Finalize Your Notes &amp; Wrapup!</strong></p>
+			<div id="wrapInject"></div>
+							
+			<div style="margin-top: 10px;"><strong>Notes</strong>
+			<p>Finalize your notes before continuing:</p><br />
+			<textarea id="finalNotes"></textarea>						
+			</div>	
+                    </div>
+                    <input type="submit" class="submitbtn1" onclick="writeOut( $('#reason').val(), $('#wrapup').val(), $('#finalNotes').val() );"/>
+                    </form> 
+                </div>	
+            
+	</div>	
+     
+
+</body> 
+</html>

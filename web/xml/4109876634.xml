@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<call>
+	<calltype>retail</calltype>
+	<history>
+		<instance>
+			<contactMethod>Phone</contactMethod>
+			<dateTime>2012:Nov:31 - 9:14AM</dateTime>
+			<reason>Return</reason>
+			<wrapup>Processed</wrapup>
+			<notes>Caller asked if caller could ship caller's product via UPS.</notes>
+		</instance>
+		<instance>
+			<contactMethod>Email</contactMethod>
+			<dateTime>2012:Sep:22 - 1:54PM</dateTime>
+			<reason>Complaint</reason>
+			<wrapup>Filed</wrapup>
+			<notes>Caller claimed caller's product did not function appropriately to caller's standards.</notes>
+		</instance>
+		<instance>
+			<contactMethod>Phone</contactMethod>
+			<dateTime>2013:Jan:10 - 2:31AM</dateTime>
+			<reason>SOS</reason>
+			<wrapup>NVM</wrapup>
+			<notes>Notes r here</notes>
+		</instance>	
+	</history>
+	<details>
+		<fname>OtherHumanNameB</fname>
+		<lname>OtherHumanNameB</lname>
+		<city>Cityland</city>
+		<state>VE</state>
+		<senority>2009-Mar-13</senority>	
+	</details>	
+</call>

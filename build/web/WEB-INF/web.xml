@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>indexINT.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>writecidxml</servlet-name>
+        <servlet-class>com.spinsci.XMLIO.StartOut</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>updatecidxml</servlet-name>
+        <servlet-class>com.spinsci.XMLIO.StartUpdate</servlet-class>
+    </servlet>    
+    <servlet>
+        <servlet-name>readcidxml</servlet-name>
+        <servlet-class>com.spinsci.XMLIO.WorkIn</servlet-class>
+    </servlet>        
+    <servlet>
+        <servlet-name>sosaxy</servlet-name>
+        <servlet-class>com.spinsci.XMLIO.NewClass</servlet-class>
+    </servlet>   
+    <servlet-mapping>
+        <servlet-name>sosaxy</servlet-name>
+        <url-pattern>/sosaxy</url-pattern>
+    </servlet-mapping>            
+    <servlet-mapping>
+        <servlet-name>writecidxml</servlet-name>
+        <url-pattern>/writecidxml</url-pattern>
+    </servlet-mapping> 
+    <servlet-mapping>
+        <servlet-name>updatecidxml</servlet-name>
+        <url-pattern>/updatecidxml</url-pattern>
+    </servlet-mapping>     
+    <servlet-mapping>
+        <servlet-name>readcidxml</servlet-name>
+        <url-pattern>/readcidxml</url-pattern>
+    </servlet-mapping>       
+</web-app>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CUIC Analytics</title>
+        <link rel="stylesheet" href="demo.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="demo-print.css" type="text/css" media="print">
+        <script src="raphael.js"></script>
+        <script src="popup.js"></script>
+        <script src="jquery.js"></script>
+        <script src="analytics.js"></script>
+        <style type="text/css" media="screen">
+            #holder {
+                height: 250px;
+                margin: -125px 0 0 -400px;
+                width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="data">
+            <tfoot>
+                <tr>
+                    <th>5:00</th>
+                    <th> </th>
+                    <th>5:30</th>
+                    <th> </th>
+                    <th>6:00</th>
+                    <th> </th>
+                    <th>6:30</th>
+                    <th> </th>
+                    <th>7:00</th>
+                    <th> </th>
+                    <th>7:30</th>
+                    <th> </th>
+                    <th>8:00</th>
+                    <th> </th>
+                    <th>8:30</th>
+                    <th> </th>
+                    <th>9:00</th>
+                    <th> </th>
+                    <th>9:30</th>
+                    <th> </th>
+                    <th>10:00</th>
+                    <th> </th>
+                    <th>10:30</th>
+                    <th> </th>
+                    <th>11:00</th>
+                    <th> </th>
+                    <th>11:30</th>
+                    <th> </th>
+                    <th>12:00</th>
+                    <th> </th>
+                    <th>12:30</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>8</td>
+                    <td>25</td>
+                    <td>27</td>
+                    <td>25</td>
+                    <td>54</td>
+                    <td>59</td>
+                    <td>79</td>
+                    <td>47</td>
+                    <td>27</td>
+                    <td>44</td>
+                    <td>44</td>
+                    <td>51</td>
+                    <td>56</td>
+                    <td>83</td>
+                    <td>12</td>
+                    <td>91</td>
+                    <td>52</td>
+                    <td>12</td>
+                    <td>40</td>
+                    <td>8</td>
+                    <td>60</td>
+                    <td>29</td>
+                    <td>7</td>
+                    <td>33</td>
+                    <td>56</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>78</td>
+                    <td>70</td>
+                    <td>68</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+		Select Data Source: 
+		<select id="major">
+			<option value="CUIC">CUIC</option>
+			<option value="AW">AW / HDS</option>
+			<option value="CTI">CTI</option>
+		</select>
+		Select Chart Type
+		<select id="minor">
+			<option>Horizontal Plot Graph</option>
+			<option>Pie Chart</option>
+			<option>X Y Chart</option>
+		</select>
+        <div id="holder"></div>        
+    </body>
+</html>

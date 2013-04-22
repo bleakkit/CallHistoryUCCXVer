@@ -1,0 +1,26 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+
+.vscrollerbase {
+width: 9px;
+background: url(../images/scrolbg.png) repeat-y;
+margin-top:14px;
+padding:2px;
+}
+.vscrollerbar {
+width: 17px;
+height:17px;
+background: url(../images/scrollbutton.png) no-repeat;
+margin-left:-6px;
+z-index:1 !important;
+
+
+}
+

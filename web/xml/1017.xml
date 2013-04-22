@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<call>
+	<calltype>mortgage</calltype>
+	<history>
+		<instance>
+			<contactMethod>Phone</contactMethod>
+			<dateTime>2013:Feb:01 - 12:35PM</dateTime>
+			<reason>Dispute</reason>
+			<wrapup>Escalated</wrapup>
+			<notes><![CDATA[Caller wanted to dissolve contract. Mentioned state provision 44. Transferred to legal - supervisor MPalmer.]]></notes>
+		</instance>
+		<instance>
+			<contactMethod>Email</contactMethod>
+			<dateTime>2013:Jan:22 - 3:21PM</dateTime>
+			<reason>Dispute</reason>
+			<wrapup>Dispute Filed</wrapup>
+			<notes><![CDATA[Client threatened legal action. Condition 43A.]]></notes>
+		</instance>
+		<instance>
+			<contactMethod>WebChat</contactMethod>
+			<dateTime>2013:Jan:11 - 12:10PM</dateTime>
+			<reason>Inquire Refinance</reason>
+			<wrapup>Documents Received</wrapup>
+			<notes><![CDATA[Client agreed to pay for an authorized credit check. He is an Experion Premium member, account 421022]]></notes>
+		</instance>			
+		<instance>
+			<contactMethod>Phone</contactMethod>
+			<dateTime>2013:Jan:10 - 2:31AM</dateTime>
+			<reason>Inquire Refinance</reason>
+			<wrapup>Requested Documents</wrapup>
+			<notes><![CDATA[Caller has a rental property in Denmark, partially owned by a public company. He wasn't sure if he had to claim this as an asset.]]></notes>
+		</instance>	
+	</history>
+	<details>
+		<name><![CDATA[白井黒子]]></name>
+		<address><![CDATA[225 Jarvis Street, M5B 2C1 Toronto]]></address>
+		<paddy><![CDATA[882 North Pen, Hartford, CN 87642]]></paddy>
+		<employer><![CDATA[Ollman Corp International]]></employer>
+		<filings><![CDATA[Married]]></filings>
+		<area><![CDATA[NEToronto]]></area>
+		<sqft><![CDATA[2100]]></sqft>
+		<markv><![CDATA[$310,000]]></markv>
+		<equity><![CDATA[10%]]></equity>
+		<indebt><![CDATA[$425,500]]></indebt>
+		<ltype><![CDATA[60yr Fixed]]></ltype>
+		<email><![CDATA[jnlowlecorp@ollman.org]]></email>
+	</details>	
+	<wcity>toronto</wcity>	
+	<wcountry>canada</wcountry>		
+</call>

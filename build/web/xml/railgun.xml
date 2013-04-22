@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<verti>
+	<social><![CDATA[MortgageToronto]]></social>
+	<addressSignifier>address</addressSignifier>
+	<citySignifier>wcity</citySignifier>	
+	<countrySignifier>wcountry</countrySignifier>	
+	<wrapups>
+		<code>Refi</code>
+		<display>Refinance Query</display>
+		<finer>
+			<option></option>
+			<option></option>
+		</finer>
+	</wrapups>
+	<wrapups>
+		<code>2012</code>
+		<display>SecondMort</display>
+	</wrapups>
+	<wrapups>
+		<code>2141</code>
+		<display>ShortSale</display>
+	</wrapups>
+	<wrapups>
+		<code>2152</code>
+		<display>LegalEviction</display>
+	</wrapups>	
+	<wrapups>
+		<code>2352</code>
+		<display>PropDamage</display>
+	</wrapups>	
+	<wrapbundle>
+		<item>
+			<varn>reason</varn>
+			<desc>Reason for call</desc>
+			<type>sl</type>
+			<options>
+				<opt>
+				<vald>0201</vald>
+				<fill>Inquiring Second Mortgage</fill>
+				</opt>
+				<opt>
+				<vald>0202</vald>
+				<fill>白井黒子</fill>
+				</opt>
+				<opt>
+				<vald>0201</vald>
+				<fill>Lower Adjustable Rate</fill>
+				</opt>				
+			</options>
+		</item>
+		<item>
+			<varn>wrapup</varn>
+			<desc>Wrapup Status</desc>
+			<type>sl</type>
+			<options>
+				<opt>
+				<vald>w393</vald>
+				<fill>Sent a Quote Request</fill>
+				</opt>
+				<opt>
+				<vald>w000</vald>
+				<fill>Caller missing financial records</fill>
+				</opt>
+				<opt>
+				<vald>e544</vald>
+				<fill>Not Eligible</fill>
+				</opt>	
+				<opt>
+				<vald>f544</vald>
+				<fill>Rate Locked for Term</fill>
+				</opt>					
+			</options>
+		</item>
+		<item>
+			<varn>prop</varn>
+			<desc>Property</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>b001</vald>
+				<fill>Business</fill>
+				</opt>	
+				<opt>
+				<vald>b002</vald>
+				<fill>Corporate</fill>
+				</opt>	
+				<opt>
+				<vald>p300</vald>
+				<fill>Personal Home</fill>
+				</opt>	
+				<opt>
+				<vald>p200</vald>
+				<fill>Public</fill>
+				</opt>					
+			</options>
+		</item>
+		<item>
+			<varn>inc</varn>
+			<desc>Verified Income</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>50</vald>
+				<fill>Under $50k</fill>
+				</opt>	
+				<opt>
+				<vald>100</vald>
+				<fill>Under $100k</fill>
+				</opt>	
+				<opt>
+				<vald>200</vald>
+				<fill>Under 250k</fill>
+				</opt>	
+				<opt>
+				<vald>9000</vald>
+				<fill>Over 250k</fill>
+				</opt>					
+			</options>
+		</item>		
+		<item>
+			<varn>preapp</varn>
+			<desc>Pre-Approval</desc>
+			<type>ss</type>
+			<options>
+				<opt>
+				<vald>none</vald>
+				<fill>Not Submitted</fill>
+				</opt>
+				<opt>
+				<vald>guarenteed</vald>
+				<fill>Guarenteed/Backed</fill>
+				</opt>					
+				<opt>
+				<vald>lrisk</vald>
+				<fill>Low Risk</fill>
+				</opt>	
+				<opt>
+				<vald>hrisk</vald>
+				<fill>High Risk</fill>
+				</opt>	
+				<opt>
+				<vald>authorized</vald>
+				<fill>Completed Report Authorization</fill>
+				</opt>					
+			</options>
+		</item>		
+	</wrapbundle>
+	<detbundle>
+		<item>
+			<varn>address</varn>
+			<desc>Address</desc>
+			<type>tl</type>
+		</item>	
+		<item>
+			<varn>paddy</varn>
+			<desc>Prev. Address</desc>
+			<type>tl</type>
+		</item>	
+		<item>
+			<varn>name</varn>
+			<desc>Legal Name</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>email</varn>
+			<desc>Email</desc>
+			<type>el</type>
+		</item>			
+		<item>
+			<varn>employer</varn>
+			<desc>Employer</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>filings</varn>
+			<desc>Filing status</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>area</varn>
+			<desc>Division</desc>
+			<type>te</type>
+		</item>		
+		<item>
+			<varn>sqft</varn>
+			<desc>Sq Footage</desc>
+			<type>te</type>
+		</item>			
+		<item>
+			<varn>markv</varn>
+			<desc>Mkt Value</desc>
+			<type>te</type>
+		</item>			
+		<item>
+			<varn>equity</varn>
+			<desc>Home Equity</desc>
+			<type>te</type>
+		</item>
+		<item>
+			<varn>indebt</varn>
+			<desc>Indebtedness</desc>
+			<type>te</type>
+		</item>	
+		<item>
+			<varn>ltype</varn>
+			<desc>Loan Type</desc>
+			<type>te</type>
+		</item>			
+	</detbundle>	
+	<optionalcontent>
+	<![CDATA[<div id='horizontalWidget' style='width:370px;overflow:hidden;text-align:center;font-family:verdana,arial,sans-serif;font-size:8pt;line-height:13x;background-color:#ced7bd;letter-spacing:0;text-transform:none;border-radius: 5px;webkit-border-radius:5px;'><div style='margin:6px 0;'><a href='http://www.zillow.com/mortgage-calculator/' target='_blank' title='Mortgage Calculators on Zillow' style='font-family:Arial;font-size:15px;text-decoration:none;font-weight:bold;color:#426529;cursor: pointer;display: block;text-align: center;text-shadow: 0 1px #fff;'>Mortgage Calc</a></div><div style='width:352px;margin:0 auto;background-color:#f2f5ef;text-align:left; font-size:8pt;border-radius: 5px; border: 1px solid;border-color:#bccdaf;webkit-border-radius: 5px;padding: 0 1px;'><iframe title='Mortgage Calculator' frameborder='0' height='235px' style='float:left;' scrolling='no' width='352px' src='http://www.zillow.com/mortgage/SmallMortgageLoanCalculatorWidget.htm?price=400000&wtype=spc&rid=102001&wsize=small&textcolor=426529&backgroundColor=f2f5ef&advTabColor=708a5c&bgcolor=ced7bd&bgtextcolor=426529&headerTextShadow=fff&widgetOrientationType=horizontalWidget'> Your browser doesn't support frames. Visit <a href='http://www.zillow.com/mortgage-calculator/' target='_blank' style='text-decoration:none; font-size:9pt; font-weight:bold;'>Zillow Mortgage Calculators</a> to see this content. </iframe><div style='clear:both;'></div></div><div style='height:20px;'><span style='display:block;margin:0 auto;font-size:7pt;height:15px;width:178px;color:#426529;padding-top:2px;'></span></div></div>]]>
+	</optionalcontent>
+</verti>

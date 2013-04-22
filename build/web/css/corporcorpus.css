@@ -1,0 +1,176 @@
+#detailed input, a.input, .selectlist {
+    background: none repeat scroll 0 0 #F8F8F8;
+    color: #162B15;
+    font-family: Verdana;
+    font-size: 12px;
+    width: 99%;
+}
+
+a.input {
+    border: 2px inset #D2D2D2;
+    display: block;
+    font-family: Verdana,​sans-serif;
+    font-size: 12px;
+    margin: 1px;
+    padding: 2px;
+    vertical-align: bottom;
+    width: 97% !important;
+}
+
+.nav-tab-selector.center {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-repeat: repeat-x;
+    height: 19px;
+}
+.nav-tab-selector.center {
+    background-position: 0 -26px;
+}
+.nav-tab-selector.center {
+    margin: 5px 4px 0;
+}
+
+.nav-tab-selector.right {
+    float: right;
+    height: 19px;
+	background: none!important;
+}
+
+.nav-tab-selector.left {
+    float: left;
+    height: 19px;
+	background: none!important;
+}
+div.outer {
+    float: left;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    margin: 10px 0;
+    width: 49%;
+}
+.nav-wrapper {
+    width: 99%;
+}
+label {
+    color: #33383C;
+    float: left;
+    font-family: Verdana,​Helvetica,​sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+    padding: 6px 13px 0 0;
+    text-align: left;
+}
+label {
+    max-width: 160px;
+    min-width: 160px;
+}
+
+div.outerlong > .nav-wrapper {
+    width: 98%;
+}
+
+
+.mega {
+    background: none repeat scroll 0 0 #EDEDED;
+    border: 1px solid #666666;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 4px 2px #292929;
+    color: #FFFFFF;
+    float: left;
+    height: 550px;
+    margin: 25px 0 0 45px;
+    width: 459px;
+	behavior: url("css/pie/PIE.htc");
+}
+
+#detailed input, a.input, .selectlist {
+    background: none repeat scroll 0 0 #F8F8F8;
+    color: #162B15;
+    font-family: Verdana;
+    font-size: 12px;
+    width: 99%;
+}
+
+select {
+    background: none repeat scroll 0 0 transparent;
+    border: 2px inset #B1B1B1;
+    color: #27373D;
+    padding: 0 0 0 9px;
+    width: 100%;
+}
+
+.mina {
+    background-image: url("../images/sprite_gadget_title.png");
+    border-bottom: 1px solid #9C9C9C;
+    border-top: 1px solid #E0E0E0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    clear: both;
+    color: #D5FFBF;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 11px;
+    padding: 1px 10px 16px 11px;
+	behavior: url("css/pie/PIE.htc");
+}
+.reallymina {
+    background: url("../images/spinscis0.png") no-repeat scroll left top transparent;
+    color: #F5FFF5;
+    float: left;
+    font-size: 17px;
+    height: 22px;
+    width: 100%;	
+}
+.reallymina > span {
+    color: #F5FFF5;
+    float: left;
+	height: 100%;
+    font-size: 17px;
+    padding-top: 4px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #454545;
+	filter: glow(color=#454545,strength=1), alpha(opacity=50);
+    width: 100%;
+	behavior: url("css/pie/PIE.htc");
+}
+
+#wrapInject {
+    float: left;
+}
+#callcenter
+{
+	 display:none; 
+}
+
+a.calltimer {
+    background-color: #454545;
+    border: 2px solid #EEEEEE;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 2px 4px 5px #28334E;
+    display: block;
+    font-weight: bold;
+    margin: 4px auto;
+    padding: 8px;
+    width: 100px;
+	behavior: url("css/pie/PIE.htc");
+}
+
+#mapcanvas
+{
+width: 450px;
+height: 475px;
+margin: 0 auto;
+}
+
+table a
+{
+	color: #454545;
+}
+
+div.verymega
+{
+	width: 80%;
+	margin: 25px auto;
+	float: none;
+}

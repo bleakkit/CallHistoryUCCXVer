@@ -1,0 +1,142 @@
+/******************************************************************************
+ * Cisco Finesse default container CSS
+ *****************************************************************************/
+
+/*** Reset CSS ***/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/*** Setting the stage ***/
+body {
+    background: #407BB3 url("../images/bg.jpg") no-repeat scroll center top ;
+    margin: 0;
+    padding: 0px 10px 8px;
+    color: #FFFFFF;
+    font: 12px/12px arial, sans-serif;
+    min-width: 960px;
+}
+
+/*** Element styles ***/
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: #000000 dotted thin;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/*** Typography ***/
+h1 {
+    font-size: 2.0em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
+
+
+
+/*** Layout ***/
+.clear {
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/*** Content areas ***/
+.header {
+    clear: both;
+    margin: 0 auto;
+}
+
+.footer {
+    clear: both;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+/** Misc Styles **/
+.clickable {
+    cursor: pointer !important;
+}
+
+.disable {
+    cursor: not-allowed !important;
+}
+
+.hidden {
+	display: none;
+}
+
+/** Rounded corners **/
+
+.rounded-corners {
+    /*Firefox*/
+    -moz-border-radius: 5px;
+    /*Chrome/Safari*/
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    /*Standard*/
+    border-radius: 5px;
+    /*IE not supported*/
+}
+
+.rounded-corners-top {
+    /*Firefox*/
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    /*Chrome/Safari*/
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    /*Standard*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*IE8 not supported*/
+}
+
+.rounded-corners-bottom {
+    /*Firefox*/
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    /*Chrome/Safari*/
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    /*Standard*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*IE8 not supported*/
+}
